@@ -1,0 +1,281 @@
+.container {
+  margin: 0 auto !important;
+  width: 100%;
+  background-image: url('http://www.freehdimages.in/uploads/large/desktop-picture-of-milky-way-from-earth-download.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+
+#socialMedia {
+  float: right;
+  position: fixed;
+  top: .25%;
+  right: 0%;
+  z-index: 2;
+}
+
+#socialMedia #showThem {
+  opacity: .8;
+}
+
+#socialMedia:hover #showThem, #showThem:focus {
+  border-left: 3px ridge white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -webkit-transition-duration: .5s; /* Safari */
+    transition-duration: .5s;
+}
+
+#socialMedia ul li {
+  display: inline-block;
+}
+
+#socialMedia .clickables [data-effects1], #socialMedia .clickables [data-effects2], #socialMedia .clickables [data-effects3], #socialMedia #showThem img {
+  width: 3.5em;
+  margin: .75em;
+  position: relative;
+}
+
+#socialMedia .clickables [data-effects1]:hover, #socialMedia .clickables [data-effects2]:hover, #socialMedia .clickables [data-effects3]:hover {
+  opacity: 1 !important;
+  -webkit-transition-duration: .5s; /* Safari */
+    transition-duration: .5s;
+}
+
+#socialMedia .clickables [data-effects3] {
+  border-radius: 100%;
+}
+
+#socialMedia .clickables [data-hide] {
+    opacity: 0;
+}
+
+#socialMedia .clickables [data-effects1] {
+  width: 4.5em;
+  position: relative;
+  bottom: 2px;
+}
+
+h1, #title p {
+  font-family: 'Cherry Cream Soda', cursive;
+  color: white;
+}
+
+h1 {
+  font-size: 3em;
+  padding-bottom: .25em;
+  padding-top: 3em;
+}
+
+h1:hover {
+  text-shadow: 0px 1px 1px blue;
+  -webkit-transition-duration: .5s; /* Safari */
+    transition-duration: .5s;
+}
+
+#title p  {
+  font-size: 1.5em;
+  margin-top: 5em;
+}
+
+#title a {
+  text-decoration: none;
+}
+
+#title {
+  margin: auto;
+  text-align: center;
+  border-radius: 100%;
+  height: 30em;
+   width: 35em;
+  background-image: url('http://betanews.com/wp-content/uploads/2015/01/Earth-600x600.jpg');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0px 1px 10px #dedede;
+  position: relative;
+}
+
+.holder {
+  margin: auto;
+  width: 115em;
+}
+
+.row {
+  width: 100%;
+  margin: auto;
+  float: none;
+}
+
+.col-md-2 {
+  position: relative;
+  border: 4px ridge #212121;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 15em;
+  margin-top: 2.5em;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+  z-index: 0;
+}
+
+.col-md-2:hover {
+  box-shadow: 0px 2px 10px #212121;
+  -webkit-transition-duration: .5s; /* Safari */
+    transition-duration: .5s;
+}
+
+.col-md-2 p {
+  width: 15em;
+  margin-bottom: 0;
+  margin-left: -.5em;
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+}
+
+.articleTitle {
+  margin-top: 5px;
+  font-family: 'Open Sans Condensed', sans-serif !important;
+  font-size: 1.25em ;
+  color: #212121;
+  padding-right: 1em;
+  width: 10em !important;
+}
+
+.titleLink {
+  width: .5em;
+}
+
+.articleTitle:hover {
+  text-shadow: 0px .1px .1px blue;
+  -webkit-transition-duration: 1s; /* Safari */
+    transition-duration: 1s;
+}
+
+.author {
+  font-weight: normal !important;
+  width: 10em !important;
+}
+
+.author:hover {
+  font-weight: bold !important;
+}
+
+.upVoteIcon {
+  width: 10px;
+  margin-right: 5px;
+  margin-left: -.6em;
+}
+
+.col-md-2 .thumbHolder {
+  width: 100%;
+  position: relative;
+}
+
+.thumbHolder img {
+  position: relative;
+  width: 14.43em;
+  right: 1.05em;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.thumbHolder img:hover {
+  border-right: 3px solid white;
+  border-left: 3px solid white;
+  border-top: 3px solid white;
+  border-bottom: 3px ridge #212121;
+  -webkit-transition-duration: .25s; /* Safari */
+    transition-duration: .25s;
+}
+
+#jumpHolder {
+  margin: auto;
+  float: right;
+  right: .15%;
+  bottom: 2%;
+  position: fixed;
+}
+
+#jumpHolder img {
+  width: 3.5em;
+}
+
+@media (min-width: 200px) and (max-width: 1655px) {
+  .row {
+    margin: auto;
+    position: relative;
+    width: 100%;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 1655px) {
+  .holder {
+    width: 100%;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 725px) {
+  .col-md-2 {
+    width: 20em;
+  }
+  
+  .thumbHolder img {
+    width: 19.41em;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 650px) {
+  .col-md-2 {
+    float: none;
+    margin: auto;
+  }
+  
+  #title {
+    width: 87.5%;
+  }
+} 
+
+@media (min-width: 200px) and (max-width: 450px) {
+  h1 {
+    width: auto;
+    font-size: 2.5em;
+    padding-top: 2em;
+  }
+  
+  #title {
+    width: 98%;
+    height: 20em;
+  }
+  
+  #title p {
+    margin-top: 2.5em;
+  }
+  
+  .row {
+    margin-top: 10px;
+  }
+  
+  .col-md-2 {
+    margin-top: 10px;
+  }
+  
+  #jumpHolder {
+    visibility: visible;
+  }
+  
+  .votes, .upVoteIcon {
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+  }
+  
+  .articleTitle {
+    color: blue;
+    width: 100% !important;
+  }
+}
